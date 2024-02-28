@@ -23,10 +23,10 @@ import java.io.IOException;
  * 1. 형식
  *    protocol://host:port/contextPath/URLMapping
  * 2. contextPath
- *    1)프로젝트 경로를 의미한다.
+ *    1) 프로젝트 경로를 의미한다.
  *    2) 프로젝트를 생성할 때 결정한다.
  *    3) 프로젝트 속성(Properties)에서 변경할 수 있다.
- *      프로젝트 우클릭 - 속성 - Web Project Settings
+ *       프로젝트 우클릭 - 속성 - Web Project Settings
  * 3. URLMapping
  *    1) 프로젝트 내부 경로를 의미한다.
  *    2) Servlet을 생성할 때 결정한다.
