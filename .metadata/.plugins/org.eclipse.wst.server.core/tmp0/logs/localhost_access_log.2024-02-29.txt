@@ -43,3 +43,12 @@
 0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:34:22 +0900] "GET /servlet/readCookie HTTP/1.1" 404 830
 0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:35:12 +0900] "GET /servlet/readcookie HTTP/1.1" 200 697
 0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:35:17 +0900] "GET /servlet/deleteCookie?cookieName=name HTTP/1.1" 404 832
+127.0.0.1 - - [29/Feb/2024:16:37:04 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:37:04 +0900] "GET /servlet/pkg07_Cookie/NewFile.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:37:08 +0900] "POST /servlet/saveCookie HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:37:08 +0900] "GET /servlet/readCookie HTTP/1.1" 200 697
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:37:10 +0900] "GET /servlet/deleteCookie?cookieName=name HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:37:16 +0900] "GET /servlet/deleteCookie?cookieName=name HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:37:20 +0900] "POST /servlet/saveCookie HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:37:20 +0900] "GET /servlet/readCookie HTTP/1.1" 200 697
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:37:36 +0900] "GET /servlet/deleteCookie?cookieName=name HTTP/1.1" 200 -
